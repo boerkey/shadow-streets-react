@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <!-- Trust your local dev machine addresses -->
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Emulator loop-back -->
+        <domain includeSubdomains="false">10.0.2.2</domain>
+        <!-- Physical phone → PC Wi-Fi IP -->
+        <domain includeSubdomains="false">192.168.1.23</domain>
+        <!-- Metro bundler / dev server -->
+        <domain includeSubdomains="false">localhost</domain>
+    </domain-config>
+
+    <!-- If you use HTTPS with a self-signed cert, add it here
+         <domain-config>
+             <domain includeSubdomains="true">mydev.api</domain>
+             <trust-anchors>
+                 <certificates src="@raw/my_ca" />
+             </trust-anchors>
+         </domain-config>
+    -->
+
+    <!-- Fallback: allow clear-text everywhere while you debug -->
+    <base-config cleartextTrafficPermitted="true"/>
+</network-security-config>

@@ -1,0 +1,26 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2500,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSaveOptions": {
+        "tabSize": 4,
+        "insertSpaces": true
+    },
+    // Theme
+    "workbench.colorTheme": "Webstorm Darcula",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    // Font
+    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 1.5,
+    "editor.fontLigatures": true,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

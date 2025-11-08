@@ -1,0 +1,2 @@
+export const GET_ENCOUNTERS = "GET_ENCOUNTERS";
+export const SET_ENCOUNTERS = "SET_ENCOUNTERS";

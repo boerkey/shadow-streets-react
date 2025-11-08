@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <feature name="ad_id_declaration">
+        <param name="usage_setting" value="enabled" />
+        <param name="scope" value="default" />
+    </feature>
+</configuration>

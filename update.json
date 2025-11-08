@@ -1,0 +1,7 @@
+{
+    "version": 43,
+    "downloadAndroidUrl": "https://firebasestorage.googleapis.com/v0/b/shadow-streets.firebasestorage.app/o/Updates%2Findex.android.bundle.zip?alt=media",
+    "downloadIosUrl": "https://firebasestorage.googleapis.com/v0/b/shadow-streets.firebasestorage.app/o/Updates%2Fmain.jsbundle.zip?alt=media",
+    "shouldDownloadAndroid": true,
+    "shouldDownloadIos": true
+}
